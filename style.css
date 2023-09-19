@@ -1,0 +1,121 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex; 
+    align-items: center;
+    padding-left: 200px;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+#logo{
+    margin-right:700px;
+    font-size: 30px;
+    color: #395e77
+}
+span#logosub{
+    color: #91bcdd;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+li{
+    list-style-type: none;
+   
+}
+img{
+    height: 30px;
+}
+.Parent{
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    width: 970px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.Text{
+    display: inline-block;
+    height: 180px;
+    width: 800px;
+    font-size: 87px;
+    position: relative;
+    top: 0px  ;
+    left: 0px;
+    font-weight: 750;
+}
+.Image{
+    display: inline-block;
+    height: 320px;
+    width: 170.65px;
+    position: relative;
+    right: 0px;
+}
+#Coderboy{
+    height: 300px;
+}
+span#playful{
+    color: blue;
+    animation: colorchange 15s ease 1s infinite alternate;
+}
+@keyframes colorchange {
+    0%{
+        color: blue;
+    }
+    12.5%{
+        color: skyblue;
+    }
+    25%{
+        color: green;
+    }
+    37.5%{
+        color: springgreen;
+    }
+    50%{
+        color: yellow;
+    }
+    62.5%{
+        color: orange;
+    }
+    75%{
+        color: red;
+    }
+    87.5%{
+        color: pink;
+    }
+    100%{
+        color: darkviolet;
+    }
+
+}
+.Identity{
+    position: absolute;
+    bottom: 200px;
+    left: 205px;   
+    font-size: 25px;
+    font font-weight: 750;
+}
+#bottomthingy{
+    height: 100px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+#downarrow{
+    transform: rotate(90deg);
+}
