@@ -1,0 +1,776 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex; 
+    align-items:center;
+    padding-left: 200px;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+#logo{
+    margin-right: 678.25px;
+    font-size: 30px;
+    color: #395e77
+}
+span#logosub{
+    color: #91bcdd;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding: 0%;
+}
+li{
+    list-style-type: none;
+   
+}
+img{
+    height: 30px;
+}
+.Parent{
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    width: 970px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.Text{
+    display: inline-block;
+    height: 180px;
+    width: 800px;
+    font-size: 87px;
+    position: relative;
+    top: 0px  ;
+    left: 0px;
+    font-weight: 750;
+}
+.Image{
+    display: inline-block;
+    height: 320px;
+    width: 170.65px;
+    position: relative;
+    right: 0px;
+}
+#Coderboy{
+    display: inline-block;
+    position: relative;
+    height: 300px;
+}
+span#playful{
+    color: blue;
+    animation: colorchange 15s ease 1s infinite alternate;
+}
+@keyframes colorchange {
+    0%{
+        color: blue;
+    }
+    12.5%{
+        color: #87ceeb;
+    }
+    25%{
+        color: green;
+    }
+    37.5%{
+        color: springgreen;
+    }
+    50%{
+        color: yellow;
+    }
+    62.5%{
+        color: orange;
+    }
+    75%{
+        color: red;
+    }
+    87.5%{
+        color: pink;
+    }
+    100%{
+        color: darkviolet;
+    }
+
+}
+.Identity{
+    position: absolute;
+    bottom: 200px;
+    left: 205px;   
+    font-size: 25px;
+    font-weight: 400;
+}
+#bottomthingy{
+    /* height: 53px;
+    width: 70px; */
+    transform: scale(1,1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 2;
+}
+#downarrow{
+    transform: rotate(90deg);
+}
+@media screen and (max-width: 1237px ){
+    #Resume{
+        margin-right: 0.9vw;
+    }
+    #Github{
+        margin-right: 0.9vw;
+    }
+    #logo{
+        margin-right: 70%;
+    }
+    ul{
+        width: 300px;
+    }
+    nav{
+        height: 66px;           
+    }
+}  
+@media screen and (min-width:1000px ) and (max-width: 1237px ){
+    ul{
+        position: absolute;
+        right: 30px;
+    }
+}
+@media screen and (min-width:1220px ) and (max-width: 1237px ){
+    div#bottomthingy{
+        position: absolute;
+        bottom: 10px;
+        left: 50.25vw;
+}
+} 
+@media screen and (min-width: 1195px ) and (max-width:1220px ){
+    div#bottomthingy{
+        position: absolute;
+        bottom: 9px;
+        left: 53%;
+    } 
+}
+@media screen and (min-width: 1175px ) and (max-width:1195px ){
+    div#bottomthingy{
+        position: absolute;
+        bottom: 7px;
+        left: 54%;
+    } 
+}
+@media screen and (min-width: 1125px ) and (max-width:1175px ){
+    div#bottomthingy{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+    } 
+    #Resume{
+        font-size: 17px
+    }
+    ul{
+        position: absolute;
+        right: 80px;
+    }
+    #Coderboy{
+        position: relative;
+        right: 100px;
+    }
+}
+@media screen and (min-width: 1160px ) and (max-width: 1175px ){
+    nav{
+        padding-left: 150px;
+    }
+    .Parent{
+        left: 150px;
+    }
+    .Text{
+        height: 180px;
+        width: 700px;
+        font-size: 75px;
+        font-weight: 730;
+}
+.Identity{
+    position: absolute;
+    bottom: 215px;
+    left: 155px;   
+    font-size: 22px;
+    font-weight: 600;
+}
+}
+@media screen and (min-width: 1100px ) and (max-width: 1160px ){
+    nav{
+        padding-left: 150px;
+    }
+    .Parent{
+        left: 150px;
+    }
+    .Text{
+        height: 180px;
+        width: 700px;
+        font-size: 75px;
+        font-weight: 730;
+}
+.Identity{
+    position: absolute;
+    bottom: 215px;
+    left: 155px;   
+    font-size: 22px;
+    font-weight: 600;
+}
+}
+@media screen and (min-width: 1100px ) and (max-width:1125px ){
+    div#bottomthingy{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+    } 
+    #Resume{
+        font-size: 17px
+    }
+    ul{
+        position: absolute;
+        right: 80px;
+    }
+    .Image{
+        position: relative;
+        right: 110px;
+    }
+    nav{
+        padding-left: 130px;
+    }
+    .Parent{
+        left: 130px;
+    }
+    .Text{
+        height: 180px;
+        width: 700px;
+        font-size: 75px;
+        font-weight: 730;
+}
+.Identity{
+    position: absolute;
+    bottom: 215px;
+    left: 135px;   
+    font-size: 22px;
+    font-weight: 600;
+}
+}
+@media screen and (min-width: 1000px ) and (max-width:1100px ){
+div#bottomthingy{
+        height: 62px;
+        width: 78px;
+        font-size: 20px;
+        position: absolute;
+        top:580px;
+        left: 50%;
+}
+nav{
+    padding-left: 120px;
+}
+.Parent{
+    left: 120px;
+}
+ul{
+    position: absolute;
+    right: 80px;
+}
+#logo{
+    margin-right: 700px;
+    font-size: 32px;
+    color: #395e77
+}
+#Resume{
+    font-size: 19px;
+}
+.Identity{
+    left: 125px;
+    bottom: 215px;
+}
+img{
+    height: 35px;
+}
+.Text{
+    font-size: 75px;
+  }
+.Image{
+    display: inline-block;
+    height: 320px;
+    width: 170.65px;
+    position: relative;
+    right: 120px;
+}
+}
+@media screen and (min-width: 1030px ) and (max-width:1050px ){
+    div#bottomthingy{
+            height: 62px;
+            width: 78px;
+            font-size: 20px;
+            position: absolute;
+            top:605px;
+            left: 51%;
+    }
+    ul{
+        position: absolute;
+        right: 55px;
+    }
+    }
+    @media screen and (min-width: 1015px ) and (max-width:1030px ){
+        div#bottomthingy{
+                height: 62px;
+                width: 78px;
+                font-size: 20px;
+                position: absolute;
+                top:610px;
+                left: 52%;
+        }
+        ul{
+            position: absolute;
+            right: 40px;
+        }
+    }
+    @media screen and (min-width: 1000px ) and (max-width:1015px ){
+        div#bottomthingy{
+                height: 62px;
+                width: 78px;
+                font-size: 20px;
+                position: absolute;
+                top:620px;
+                left: 53%;
+        }
+        ul{
+            position: absolute;
+            right: 20px;
+        }
+    }
+    @media screen and (min-width: 850px ) and (max-width:1000px ){
+        nav{
+            padding-left: 115px;
+        }
+        .Parent{
+            left: 115px;
+        } 
+        .Text{
+            font-size: 75px;
+        }
+        .Identity{
+            left: 120px;
+            bottom: 215px;
+        }  
+        ul{
+            position: absolute;
+            right: 100px;
+        }
+        #logo{
+            margin-right: 700px;
+            font-size: 33px;
+            color: #395e77
+        }
+        img{
+            height: 35px;
+        }
+        #Resume{
+            font-size: 22px;
+        }
+        .Image{
+            display: inline-block;
+            height: 320px;
+            width: 170.65px;
+            position: relative;
+            right: 120px;
+        }
+    }
+@media screen and (min-width: 985px ) and (max-width:1000px ){
+    div#bottomthingy{
+        top: 640px;
+        left: 53%;
+        font-size: 22px;
+    }
+    ul{
+        position: absolute;
+        left: 710px;
+    }
+}
+@media screen and (min-width: 950px ) and (max-width:985px ){
+    div#bottomthingy{
+        top: 641px;
+        left: 55%;
+        font-size: 22px;
+    }
+    ul{
+        position: absolute;
+        left: 710px;
+    }
+}
+@media screen and (min-width: 925px ) and (max-width: 950px ){
+    div#bottomthingy{
+        top: 670px;
+        left: 57%;
+        font-size: 22px;
+    }
+    ul{
+        position: absolute;
+        left: 710px;
+    }
+}
+@media screen and (min-width: 850px ) and (max-width: 925px ){
+    .Parent{
+        top: 140px;
+    }
+    .Identity{
+        left: 120px;
+        bottom: 175px;
+    }
+}
+@media screen and (min-width: 900px ) and (max-width: 925px ){
+    div#bottomthingy{
+        top: 680px;
+        left: 58.3%;
+        font-size: 22px;
+    }
+    ul{
+        position: absolute;
+        left: 710px;
+    }
+}
+@media screen and (min-width: 850px ) and (max-width: 900px ){
+    div#bottomthingy{
+        top: 690px;
+        left: 61%;
+        font-size: 22px;
+    }
+    ul{
+        position: absolute;
+        left: 710px;
+    }
+}
+@media screen and (min-width: 650px ) and (max-width:850px ){
+    div#bottomthingy{
+        height: 62px;
+        width: 78px;
+        top: 730px;
+        left: 62%;
+        font-size: 25px;
+  }
+  nav{
+    margin-top: 30px;
+    padding-left: 115px;
+  }
+  ul{
+      position: absolute;
+      left: 700px;
+  }
+  #logo{
+      margin-right: 700px;
+      font-size: 37px;
+      color: #395e77
+  }
+  img{
+      height: 40px;
+  }
+  #Resume{
+      font-size: 23px;
+  }
+  .Image{
+      position: relative;
+      right: 150px;
+  }
+  #Coderboy{
+    height: 320px;
+}
+  .Parent{
+    margin-top: 60px;
+    left: 115px;
+  }
+  .Text{
+    font-size: 77px;
+  }
+  .Identity{
+    position: absolute;
+    bottom:  500px; 
+    left: 120px; 
+    font-size: 25px;
+    font-weight: 500;
+}
+}
+@media screen and (min-width: 800px ) and (max-width: 825px ){
+    div#bottomthingy{
+        top: 760px;
+        left: 65%;
+}
+}
+@media screen and (min-width: 775px ) and (max-width: 800px ){
+    div#bottomthingy{
+        top: 800px;
+        left: 66%;
+}
+}
+@media screen and (min-width: 750px ) and (max-width: 775px ){
+    div#bottomthingy{
+        top: 820px;
+        left: 68.5%;
+}
+}
+@media screen and (min-width: 725px ) and (max-width: 750px ){
+    div#bottomthingy{
+        top: 850px;
+        left: 73%;
+}
+}
+@media screen and (min-width: 650px ) and (max-width: 725px ){
+    nav{
+        padding-left: 70px;
+      }
+    .Parent{
+        top: 140px;
+        left: 70px;
+    }
+    ul{
+        position: absolute;
+        left: 680px;
+    }
+    .Image{
+        position: relative;
+        right: 70px;
+    }
+    .Identity{
+        left: 75px;
+        bottom: 80px;
+        font-size: 27px;
+    }
+    #logo{
+        font-size: 40px;
+    }
+    #Resume{
+        font-size: 26px;
+    }
+    #Coderboy{
+        height: 350px;
+    }
+    .Text{
+        font-size: 79px;
+    }
+}
+@media screen and (min-width: 700px ) and (max-width: 725px ){
+    div#bottomthingy{
+        top: 850px;
+        left: 73%;
+}
+}
+@media screen and (min-width: 650px ) and (max-width: 700px ){
+    div#bottomthingy{
+        top: 900px;
+        left: 79%;
+}
+}
+@media screen and (max-width:650px ){
+    div#bottomthingy{
+        height: 62px;
+        width: 78px;
+        top: 600px;
+        left:45%;
+        font-size: 17px;
+    }
+  nav{
+    margin-top: 5px;
+    padding-left: 70px;
+  }
+  .Parent{
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 450px;
+    margin-top: 0px;
+    top: 5px;
+    left: 15%;
+  }
+  ul{
+      position: absolute;
+      right: 5%;
+      width: 225px;
+  }
+  #logo{
+      margin-right: 700px;
+      font-size: 30px;
+      color: #395e77
+  }
+  img{
+      height: 33px;
+  }
+  #Resume{
+      font-size: 15px;
+  }
+  #Coderboy{
+    float: right;
+    height: 250px;
+}
+  .Text{
+    height: 150px;
+    width: 390px;
+    font-size: 50px;
+    text-align: center                                          ;
+  }
+  .Identity{
+    position: absolute;
+    bottom: 80px; 
+    left: 32%; 
+    font-size: 15px;
+    font-weight: 500;
+}
+}
+  @media screen and (min-width: 575px ) and (max-width:600px ){
+  .Parent{
+    left: 12%;
+  }
+  }
+@media screen and (min-width: 550px ) and (max-width:575px ){
+    .Parent{
+      left: 10%;
+    }
+}
+@media screen and (min-width: 500px ) and (max-width:550px ){
+    .Parent{
+      left: 8%;
+    }
+    .Identity{
+        left: 30%;
+        top: 550px;
+    }
+    ul{
+        width: 200px;
+    }
+    }
+@media screen and (min-width: 450px ) and (max-width:510px ){
+    .Parent{
+          left: 6%;
+    }
+    .Identity{
+            left: 28%;
+    }
+    ul{
+        width: 180px;
+    }
+}
+@media screen and (min-width: 425px ) and (max-width:450px ){
+    .Parent{
+          left: 5%;
+    }
+    .Identity{
+            left: 28%;
+            top: 600px;
+    }
+    div#bottomthingy{
+        height: 62px;
+        width: 78px;
+        top: 640px;
+        left:47%;
+        font-size: 17px;
+    }
+    ul{
+        width: 170px;
+        right: 2.5%;
+
+    }
+}
+@media screen and (min-width: 400px ) and (max-width:425px ){
+    .Parent{
+          left: 3.5%;
+    }
+    .Identity{
+            left: 28%;
+            top: 600px;
+    }
+    div#bottomthingy{
+        height: 62px;
+        width: 78px;
+        position: absolute;
+        top: 870px;
+        left:48%;
+        font-size: 17px;
+    }
+    ul{
+        width: 170px;
+        position: fixed;
+        right: 5%;
+
+    }
+}
+@media screen and (min-width:380px) and (max-width:400px ){
+    .Parent{
+          left: 2%;
+    }
+    .Identity{
+            left: 28%;
+            top: 600px;
+    }
+    div#bottomthingy{
+        height: 62px;
+        width: 78px;
+        top: 700px;
+        left:50%;
+        font-size: 15px;
+    }
+    ul{
+        width: 150px;
+        position: fixed;
+        right: 5%;
+
+    }
+}
+@media screen and (min-width:350px) and (max-width:380px ){
+    .Parent{
+          left: 2%;
+    }
+    .Identity{
+            left: 30%;
+    }
+    div#bottomthingy{
+        height: 62px;
+        width: 78px;
+        position: absolute;
+        top: 770px;
+        left:55%;
+        font-size: 17px;
+    }
+    ul{
+        width: 150px;
+        position: fixed;
+        right: 5%;
+
+    }
+}
+@media screen and (max-width:350px ){
+    .Parent{
+          left: 2%;
+          top: 90px;
+    }
+    .Identity{
+        top: 670px;
+        left: 35%;
+        width: 270px;
+    }
+    div#bottomthingy{
+        height: 62px;
+        width: 78px;
+        position: fixed;
+        top: 800px;
+        left:42%;
+        font-size: 17px;
+    }
+    ul{
+        width: 150px;
+        position: fixed;
+        right: 5%;
+
+    }
+}
